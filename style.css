@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Shippori Antique', sans-serif;
+
+}
+h1 {
+  text-align: center;
+  margin: 50px 20px 20px 20px;
+  font-size: 60px;
+}
+p {
+  border: 3px solid black;
+  background-color: grey;
+  padding: 15px;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.p1{    
+      float: right;
+      background-color: pink;   
+      text-align: center;
+      height: 50px;
+    } 
+.p2{
+      float: right;
+      background-color: #A52A2A;       
+      text-align: center;
+     height: 50px;
+   }
+ .p3{
+      float: right;
+      background-color: #DEB887;   
+      text-align: center;
+      height: 50px;
+    } 
+    .column1{
+      float: left;
+      width: 33.33%;
+      padding:20px;
+    }
+    .column2{
+      float: left;
+      width: 33.33%;
+      padding: 20px;
+    }
+    .column3{
+      float: left;
+      width: 33.33%;
+      padding: 20px;
+    }
+
+  @media (min-width: 992px) {
+  .column1, .column2, .column3{
+    float: left;
+  }
+  .column1{
+    width: 33.33%;
+  }
+  .column2 {
+    width: 33.33%;
+  }
+  .column3 {
+    width: 33%%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.column1, .column2, .column3{
+    float: left;
+  }
+  .column1{
+    width: 50%;
+  }
+  .column2{
+    width: 50%;
+  }
+  .column3{
+    width: 100%;
+    height: 100%;
+  }
+  }
+  @media (max-width: 767px){
+  .column1, .column2, .column3{
+      float: left;
+  }
+  .column1{
+    width: 100%;
+  }
+  .column2{
+    width: 100%;
+  }
+  .column3{
+    width: 100%;
+  }
+}
